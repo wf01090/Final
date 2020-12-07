@@ -1,0 +1,15 @@
+exports.final = (req, res) => {
+  if(req.body.x && req.body.y && req.body.z){
+    let x = parseFloat(req.body.x);
+    let y = parseFloat(req.body.y);
+    let z = parseFloat(req.body.z);
+    // https://www.mathsisfun.com/algebra/trig-solving-sas-triangles.html is where i got the formula for the law of cosine to find the missing side
+    // https://www.w3schools.com/js/js_math.asp is where i got the formula to convert degrees to radians 
+    let result = (x**2) + (y**2) - (2*x*y) *  Math.cos(z *  Math.PI / 180);
+    // https://www.w3schools.com/jsref/jsref_sqrt.asp here is where i found the method for taking a square root of a number
+    result =  Math.sqrt(result);
+    res.status(200).send(result.toString());
+  } else{
+      res.status(400).send('bad request');
+  }
+};
