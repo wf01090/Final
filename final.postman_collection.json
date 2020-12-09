@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "a2ebe9fa-46b5-4594-94c3-16c6fe68c8d7",
+		"name": "final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Final",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\" : 46,\r\n    \"y\" : 70,\r\n    \"z\" : 102\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Final Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"x\" : 46,\r\n    \"y\" : 70,\r\n    \"z\" : 102\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No y value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : 4,\r\n \"y\" : \"\",\r\n  \"z\" : 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No x value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : \"\",\r\n \"y\" : 8,\r\n  \" z\" : 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No z value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : 4,\r\n \"y\" : 6,\r\n  \" z\" : \"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "String in X",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : \"Hello\",\r\n \"y\" : 8,\r\n  \" z\" : 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "String in Y",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : 4,\r\n \"y\" : \"Hello\",\r\n  \" z\" : 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "String in Z",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"x\" : 4,\r\n \"y\" : \"Hello\",\r\n  \" z\" : 0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-east1-primeval-pixel-286718.cloudfunctions.net/function-final",
+					"protocol": "https",
+					"host": [
+						"us-east1-primeval-pixel-286718",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"function-final"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
